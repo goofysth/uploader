@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "CameraS3UploadViewController.updateTimeLabel() -&gt; ():CameraS3UploadViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "captureButton.alpha">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CameraS3UploadViewController.takePhoto(Any) -&gt; ():CameraS3UploadViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "captureButton.alpha">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

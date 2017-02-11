@@ -7,21 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		080B68441E3BCC11009F0945 /* NetworkUtilClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080B68431E3BCC11009F0945 /* NetworkUtilClass.swift */; };
+		080B68461E3BD1AF009F0945 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 080B68451E3BD1AF009F0945 /* LaunchScreen.storyboard */; };
+		080B68481E3BEFD8009F0945 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080B68471E3BEFD8009F0945 /* Utilities.swift */; };
 		0898A24C1E3A7BF900FBF5C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0898A24B1E3A7BF900FBF5C2 /* AppDelegate.swift */; };
-		0898A24E1E3A7BF900FBF5C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0898A24D1E3A7BF900FBF5C2 /* ViewController.swift */; };
+		0898A24E1E3A7BF900FBF5C2 /* CameraS3UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0898A24D1E3A7BF900FBF5C2 /* CameraS3UploadViewController.swift */; };
 		0898A2511E3A7BF900FBF5C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0898A24F1E3A7BF900FBF5C2 /* Main.storyboard */; };
 		0898A2531E3A7BF900FBF5C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0898A2521E3A7BF900FBF5C2 /* Assets.xcassets */; };
-		0898A2561E3A7BF900FBF5C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0898A2541E3A7BF900FBF5C2 /* LaunchScreen.storyboard */; };
+		0898A25E1E3A7FD400FBF5C2 /* CameraS3UploadModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0898A25D1E3A7FD400FBF5C2 /* CameraS3UploadModel.swift */; };
+		27E10B2F4D35DE51B4EC2572 /* Pods_CameraS3Upload.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC2153E627E3AB3E5359D5BE /* Pods_CameraS3Upload.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		080B68431E3BCC11009F0945 /* NetworkUtilClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkUtilClass.swift; sourceTree = "<group>"; };
+		080B68451E3BD1AF009F0945 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		080B68471E3BEFD8009F0945 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		0898A2481E3A7BF900FBF5C2 /* CameraS3Upload.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CameraS3Upload.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0898A24B1E3A7BF900FBF5C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0898A24D1E3A7BF900FBF5C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0898A24D1E3A7BF900FBF5C2 /* CameraS3UploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraS3UploadViewController.swift; sourceTree = "<group>"; };
 		0898A2501E3A7BF900FBF5C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0898A2521E3A7BF900FBF5C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0898A2551E3A7BF900FBF5C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0898A2571E3A7BF900FBF5C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0898A25D1E3A7FD400FBF5C2 /* CameraS3UploadModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraS3UploadModel.swift; sourceTree = "<group>"; };
+		A5F33B5732359E8D7D87B229 /* Pods-CameraS3Upload.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CameraS3Upload.release.xcconfig"; path = "Pods/Target Support Files/Pods-CameraS3Upload/Pods-CameraS3Upload.release.xcconfig"; sourceTree = "<group>"; };
+		B670AC3E4470BF0874F6ED1F /* Pods-CameraS3Upload.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CameraS3Upload.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CameraS3Upload/Pods-CameraS3Upload.debug.xcconfig"; sourceTree = "<group>"; };
+		DC2153E627E3AB3E5359D5BE /* Pods_CameraS3Upload.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CameraS3Upload.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27E10B2F4D35DE51B4EC2572 /* Pods_CameraS3Upload.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +51,8 @@
 			children = (
 				0898A24A1E3A7BF900FBF5C2 /* CameraS3Upload */,
 				0898A2491E3A7BF900FBF5C2 /* Products */,
+				9E8AF4217266E213E5936130 /* Pods */,
+				A71BCBBE0C9103933E689DA7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +67,34 @@
 		0898A24A1E3A7BF900FBF5C2 /* CameraS3Upload */ = {
 			isa = PBXGroup;
 			children = (
+				080B68451E3BD1AF009F0945 /* LaunchScreen.storyboard */,
 				0898A24B1E3A7BF900FBF5C2 /* AppDelegate.swift */,
-				0898A24D1E3A7BF900FBF5C2 /* ViewController.swift */,
+				0898A24D1E3A7BF900FBF5C2 /* CameraS3UploadViewController.swift */,
+				0898A25D1E3A7FD400FBF5C2 /* CameraS3UploadModel.swift */,
+				080B68471E3BEFD8009F0945 /* Utilities.swift */,
+				080B68431E3BCC11009F0945 /* NetworkUtilClass.swift */,
 				0898A24F1E3A7BF900FBF5C2 /* Main.storyboard */,
 				0898A2521E3A7BF900FBF5C2 /* Assets.xcassets */,
-				0898A2541E3A7BF900FBF5C2 /* LaunchScreen.storyboard */,
 				0898A2571E3A7BF900FBF5C2 /* Info.plist */,
 			);
 			path = CameraS3Upload;
+			sourceTree = "<group>";
+		};
+		9E8AF4217266E213E5936130 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B670AC3E4470BF0874F6ED1F /* Pods-CameraS3Upload.debug.xcconfig */,
+				A5F33B5732359E8D7D87B229 /* Pods-CameraS3Upload.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A71BCBBE0C9103933E689DA7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC2153E627E3AB3E5359D5BE /* Pods_CameraS3Upload.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +104,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0898A25A1E3A7BF900FBF5C2 /* Build configuration list for PBXNativeTarget "CameraS3Upload" */;
 			buildPhases = (
+				FCEDAFCD868C2A5D29514A2C /* [CP] Check Pods Manifest.lock */,
 				0898A2441E3A7BF900FBF5C2 /* Sources */,
 				0898A2451E3A7BF900FBF5C2 /* Frameworks */,
 				0898A2461E3A7BF900FBF5C2 /* Resources */,
+				F652F5D828E63D83BD16748E /* [CP] Embed Pods Frameworks */,
+				0F39C2ACB287832C2291FDEB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +132,7 @@
 				TargetAttributes = {
 					0898A2471E3A7BF900FBF5C2 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = ZGW7MM4Q7N;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -123,7 +160,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0898A2561E3A7BF900FBF5C2 /* LaunchScreen.storyboard in Resources */,
+				080B68461E3BD1AF009F0945 /* LaunchScreen.storyboard in Resources */,
 				0898A2531E3A7BF900FBF5C2 /* Assets.xcassets in Resources */,
 				0898A2511E3A7BF900FBF5C2 /* Main.storyboard in Resources */,
 			);
@@ -131,13 +168,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0F39C2ACB287832C2291FDEB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CameraS3Upload/Pods-CameraS3Upload-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F652F5D828E63D83BD16748E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CameraS3Upload/Pods-CameraS3Upload-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCEDAFCD868C2A5D29514A2C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0898A2441E3A7BF900FBF5C2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0898A24E1E3A7BF900FBF5C2 /* ViewController.swift in Sources */,
+				0898A24E1E3A7BF900FBF5C2 /* CameraS3UploadViewController.swift in Sources */,
+				0898A25E1E3A7FD400FBF5C2 /* CameraS3UploadModel.swift in Sources */,
 				0898A24C1E3A7BF900FBF5C2 /* AppDelegate.swift in Sources */,
+				080B68481E3BEFD8009F0945 /* Utilities.swift in Sources */,
+				080B68441E3BCC11009F0945 /* NetworkUtilClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,14 +238,6 @@
 				0898A2501E3A7BF900FBF5C2 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		0898A2541E3A7BF900FBF5C2 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0898A2551E3A7BF900FBF5C2 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -258,8 +338,10 @@
 		};
 		0898A25B1E3A7BF900FBF5C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B670AC3E4470BF0874F6ED1F /* Pods-CameraS3Upload.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZGW7MM4Q7N;
 				INFOPLIST_FILE = CameraS3Upload/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mostanica.CameraS3Upload;
@@ -270,8 +352,10 @@
 		};
 		0898A25C1E3A7BF900FBF5C2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5F33B5732359E8D7D87B229 /* Pods-CameraS3Upload.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZGW7MM4Q7N;
 				INFOPLIST_FILE = CameraS3Upload/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mostanica.CameraS3Upload;
@@ -299,6 +383,7 @@
 				0898A25C1E3A7BF900FBF5C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
